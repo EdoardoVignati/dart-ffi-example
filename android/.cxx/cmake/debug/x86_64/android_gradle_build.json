@@ -1,0 +1,43 @@
+{
+  "stringTable": {
+    "0": "/home/edoardo/AndroidStudioProjects/native_add/android/.cxx/cmake/debug/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=/home/edoardo/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/edoardo/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_add_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/edoardo/AndroidStudioProjects/native_add/android/CMakeLists.txt",
+    "/home/edoardo/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/home/edoardo/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/home/edoardo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/edoardo/AndroidStudioProjects/native_add/android/.cxx/cmake/debug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/home/edoardo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/edoardo/AndroidStudioProjects/native_add/android/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native_add-Debug-x86_64": {
+      "buildCommand": "/home/edoardo/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/edoardo/AndroidStudioProjects/native_add/android/.cxx/cmake/debug/x86_64\" native_add",
+      "buildType": "debug",
+      "toolchain": "267386839",
+      "abi": "x86_64",
+      "artifactName": "native_add",
+      "files": [
+        {
+          "src": "/home/edoardo/AndroidStudioProjects/native_add/ios/Classes/native_add.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/edoardo/AndroidStudioProjects/native_add/example/build/native_add/intermediates/cmake/debug/obj/x86_64/libnative_add.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "267386839": {
+      "cppCompilerExecutable": "/home/edoardo/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
